@@ -1,0 +1,46 @@
+/* styles.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh;*/ /* Establecemos la altura del contenedor para ocupar toda la altura de la ventana */
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 5px 100px 5px 5px;
+  color: #222;
+  border-radius: 60px;
+  font-size: 20px;
+}
+.user-item:hover {
+  cursor: pointer;
+  transform: scale(1.1); /* Escalamos el tamaño del elemento al hacer hover */
+  transition: transform 0.3s ease; /* Aplicamos una transición suave de 0.3 segundos */
+  background-color: antiquewhite;
+}
+.user-avatar {
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.user-details {
+  margin: 0;
+}
+
+.user-details__name,
+.user-details__email {
+  margin: 0;
+}
