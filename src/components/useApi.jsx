@@ -12,6 +12,12 @@ function useApi(url) {
         setLoading(true);
         const response = await axios.get(url);
         // console.log(response.data.data);
+        /**
+         *  setTimeout(() => {
+          setData(response.data.data);
+          setLoading(false);
+        }, 500);
+         */
         setData(response.data.data);
         setError(null);
       } catch (error) {

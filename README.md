@@ -17,7 +17,7 @@
 
 #### Resultado final
 
-![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/custom-hooks.png)
+![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/custom-hook-consumiendo-api-rest.png)
 
 ### Expresiones de Gratitud 🎁
 

@@ -7,7 +7,11 @@ function App() {
   const { data, error, loading } = useApi(url_api);
 
   if (loading) {
-    return <div>Cargando...</div>;
+    return (
+      <div className="loader-container">
+        <div className="loader">Cargando...</div>
+      </div>
+    );
   }
 
   if (error) {
